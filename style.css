@@ -1,0 +1,311 @@
+.body{
+  height: auto;
+  width:auto;
+ 
+}
+#hove{
+  display: none;
+  border:1px solid black;
+  height: 20px;
+  width:140px;
+  border-radius:10px;
+  padding-left: 2px;
+  background-color: azure;
+   cursor:pointer;
+
+
+}
+#mode {
+  
+  cursor: pointer;
+}
+
+
+.navbar{
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border:1px solid rgba(0, 0, 0, 0.3);
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  padding-left: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  box-sizing: border-box;
+   
+}
+
+.left{
+  
+   display: flex;
+   gap: 55px;
+  
+}
+#im{
+  height: 28px;
+  
+}
+.right {
+  display: flex;
+  align-items: center;
+  gap: 30px;   /* space between search, dark mode, more */
+}
+
+
+#inp {
+  padding: 5px 10px;
+  border: 1.5px solid rgb(83, 163, 83);
+  border-radius: 5px;
+  outline: none;
+  height: 30px;
+}
+.icon {
+  height: 25px;
+  width: 25px;
+  cursor:pointer;
+}
+
+
+h3:hover{
+  cursor: pointer;
+  color: green;
+  
+  
+}
+.below{
+  width: vw;
+  gap:30px;
+  display: flex;
+  justify-content: start;
+   overflow-x: auto;      /* Enables horizontal scroll */
+  
+  white-space: nowrap; 
+  scrollbar-width: none; 
+  
+}
+.pa{
+  background-color: #F5FFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+}
+.placeho{
+  display: flex;
+  justify-content:center;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background-color:#F5FFFF;
+  height: auto;
+  min-height: 150px;
+  padding-top:5px;
+
+}
+
+
+input {
+  padding-left: 20px;
+  outline:none;
+}
+.placeho input {
+  height: 60px;          /* Fixes input height */
+  width: 700px;          /* Fixes input width */
+  font-size: 16px;
+  border-radius: 5px;       /* Keeps text size same */
+  border: 0.5px black solid;
+
+}
+.placeho:hover{
+  color: white;
+  border-color: solid black;
+}
+.ss{
+  display: flex;
+  flex-direction: row;
+  gap:10px;
+
+}
+.nation{
+ margin-top:20px;
+  height: 25px;
+  width:auto;
+  padding-top:5px;
+  padding-left:10px;
+  padding-right: 10px;
+  border:0.5px black solid;
+  border-radius: 2px;
+  color:black
+}
+#nat{
+  color:white;
+  background-color: green;
+}
+.center-container {
+  display: flex;
+  justify-content: center; 
+  padding-top: 40px; /* Centers horizontally */
+      /* Centers vertically */
+            /* Full viewport height */
+}
+.walkin{
+  display: flex;
+  justify-content:start;
+  gap:100px;
+
+}
+.le{
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  
+}
+.walkin {
+  width: 900px;
+  height: 350px;
+  border-radius:6px;
+border: 1px solid rgba(0, 0, 0, 0.3);
+  background-color:white;
+  
+}
+.ri{
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap:10px;
+  align-items: center;
+  
+}
+h5{
+  font-size: 13px;
+
+}.riu{
+  display: flex;
+  flex-direction: row;
+  gap:80px;
+}
+.riim{
+  height: 100px;
+  width: 100px;
+  border:0.5px black solid;
+  border-radius: 50%;
+}
+
+.course {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.w1, .w2 {
+  display: flex;
+  justify-content: start;
+
+  height: 300px;
+  width: 900px;
+  gap:20px;
+ 
+  
+}
+#ch{
+  left:10px;
+}
+.co1{
+  height: 300px;
+  width:400px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  
+  
+
+}
+.ch{
+  margin-left: 0;
+}
+#why{
+  padding-top: 20px;
+  padding-left: 20px;
+  font-size:x-large;
+}
+#why1{
+   padding-left: 20px;
+  font-size: medium;
+}
+#w{
+  height: 25px;
+  width: 120px;
+  margin-top:5px;
+  margin-left:20px;
+  padding-left: 5px;
+  background-color: rgb(15, 87, 15);
+  color:white;
+  border:0.5px black;
+  border-radius: 15px;
+  padding-top: 5px;
+}
+.pe1{
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  width: 30px;
+  border:1px black solid;
+}
+#i1{
+  height: 200px;
+  width:290px;
+
+}
+#san{
+  height: 100px;
+  width: 100px;
+  border:0.5px black solid;
+  border-radius: 50%;
+}
+.dropdown {
+    position: relative;  /* container relative */
+    
+}
+
+#vi {
+    display: none;
+    cursor:pointer;
+    position: absolute;
+             
+    
+    background-color: #f0f0f0;
+    padding: 10px;
+   
+    
+    white-space: nowrap;
+    line-height: 2;
+     border-top: 10px solid green;
+
+}
+#pz{
+  height: 50px;
+  width: 70px;
+  margin-top: -85px;
+ 
+  
+  
+  border:1px black  solid;
+  
+}
+#input1{
+  height: 75px;
+}
+.dropdown:hover #vi {
+    display: block;
+}
+.fa-angle-down{
+  display: none;
+}
+.dropdown:hover .fa-angle-down {
+  display: inline;
+}
+.dropdown:hover .fa-angle-up {
+  display: none;
+}
